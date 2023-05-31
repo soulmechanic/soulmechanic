@@ -1,5 +1,13 @@
 import pandas as pd
 
+"""This function iteratively merges the dataframes in the list using the merge method and the specified column. 
+The resulting dataframe will contain rows where the values in the specified column match across all dataframes."""
+
+"""This version of the function uses the next function with a generator expression 
+to find the index of the first empty dataframe or dataframe that is not of type DataFrame 
+in the list. If such a dataframe is found, the function will print an error message with the
+index of the empty dataframe and return None."""
+
 def merge_dataframes_on_column(dfs, column):
     """
     Merges a list of dataframes on a specified column.
