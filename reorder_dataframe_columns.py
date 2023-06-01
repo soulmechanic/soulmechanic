@@ -30,5 +30,4 @@ def reorder_dataframe_columns(snowflake_connection, table_name, schema, df):
 
         return df
     except Exception as e:
-        print(f"An error occurred while reordering columns: {e}")
-        return df
+        raise ValueError(f"An error occurred while reordering columns: {e}")
