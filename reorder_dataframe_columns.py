@@ -18,6 +18,7 @@ def reorder_dataframe_columns(snowflake_connection, table_name, schema, df):
         # Get the column names from the Snowflake table
         result = snowflake_connection.cursor().execute(f"DESCRIBE TABLE {schema}.{table_name}")
         columns = [row[0] for row in result]
+        df.columns =  [x.upper() for x in df.columns]
 
         # Check if any columns are missing in the DataFrame
         missing_columns = [col for col in columns if col not in df.columns]
