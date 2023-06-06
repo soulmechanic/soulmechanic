@@ -29,3 +29,35 @@ def move_column(df, column_to_move, column_to_move_after):
     df = df[cols]
     return df
 
+
+
+def format_date_columns(df, date_columns=None, date_format, errors='raise', find_date_columns=False):
+    """
+    Formats the date columns in a DataFrame to a specific string format.
+
+    :param df: The DataFrame containing the date columns to format.
+    :type df: pandas.DataFrame
+    :param date_columns: A list of column names to format. If find_date_columns is set to True, this parameter is ignored.
+    :type date_columns: list, optional
+    :param date_format: The desired date format string.
+    :type date_format: str
+    :param errors: Determines how errors should be handled. 'raise' will raise an exception, 'coerce' will set invalid values to NaT, and 'ignore' will skip invalid values.
+    :type errors: str, optional
+    :param find_date_columns: If set to True, the function will automatically find all columns in the DataFrame that contain dates and attempt to format them. If set to False, the function will only format the columns specified in the date_columns parameter.
+    :type find_date_columns: bool, optional
+    :return: The DataFrame with formatted date columns.
+    :rtype: pandas.DataFrame
+    """
+    if find_date_columns:
+        date_columns = df.select_dtypes(include=['datetime64']).columns
+    for col in date_columns:
+        try:
+            df[col] = pd.to_datetime(df[col]).dt.strftime(date_format)
+        except Exception as e:
+            if errors == 'raise':
+                raise e
+            elif errors == 'coerce':
+                df[col] = pd.NaT
+            elif errors == 'ignore':
+                continue
+    return df
