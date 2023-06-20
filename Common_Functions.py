@@ -86,8 +86,4 @@ def override_values(df1, df2, key_column):
     except KeyError:
         print(f"The key column '{key_column}' was not found in one or both dataframes.")
         return None
-```
 
-This function now includes a description of what it does and information about its parameters and return value. It also includes exception handling to catch a `KeyError` if the `key_column` is not found in one or both dataframes. In this case, it prints an error message and returns `None`.
-
-Is there anything else you would like me to add or change?
