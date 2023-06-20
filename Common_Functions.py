@@ -61,3 +61,33 @@ def format_date_columns(df, date_columns=None, date_format, errors='raise', find
             elif errors == 'ignore':
                 continue
     return df
+
+
+def override_values(df1, df2, key_column):
+    """
+    Overrides values on one dataframe using values from another dataframe based on the key column.
+
+    :param df1: The first dataframe
+    :type df1: pandas.DataFrame
+    :param df2: The second dataframe
+    :type df2: pandas.DataFrame
+    :param key_column: The common column between the two dataframes
+    :type key_column: str
+    :return: The updated first dataframe
+    :rtype: pandas.DataFrame
+    """
+    try:
+        columns = df1.columns
+        df1.set_index(key_column, inplace=True)
+        df2.set_index(key_column, inplace=True)
+        df1.update(df2)
+        df1.reset_index(inplace=True)
+        return df1[columns]
+    except KeyError:
+        print(f"The key column '{key_column}' was not found in one or both dataframes.")
+        return None
+```
+
+This function now includes a description of what it does and information about its parameters and return value. It also includes exception handling to catch a `KeyError` if the `key_column` is not found in one or both dataframes. In this case, it prints an error message and returns `None`.
+
+Is there anything else you would like me to add or change?
