@@ -1,0 +1,697 @@
+{
+  "Label": "GEP-Extract",
+  "Initiative": "Pfizer Container 2022-09-13 Configuration Change Testing",
+  "Mode": "Calculation",
+  "StaticValues": false,
+  "CreatedDate": "2022-09-14T08:57:27.5546266+00:00",
+  "SimulationId": "c6644c26-be7b-4454-995b-59b6e6cde2b8_118",
+  "ModelId": "8744a6e0-8f1f-4277-890f-9536b1761fb3",
+  "ModelType": "Portfolio",
+  "ModelName": "Governance Endorsed Portfolio",
+  "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/portfolio/8744a6e0-8f1f-4277-890f-9536b1761fb3/composition",
+  "ParentId": null,
+  "ParentName": null,
+  "Properties": {},
+  "ChildSimulations": [
+    {
+      "SimulationId": "27e9d305-981d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "2150f378-e696-4535-b443-ff072bcd4914",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/0f725e1b-411a-4d11-b54d-3fc3115945fd/2150f378-e696-4535-b443-ff072bcd4914/input",
+      "ParentId": "0f725e1b-411a-4d11-b54d-3fc3115945fd",
+      "ParentName": "DMD GTx IV - Amb - C339a",
+      "Properties": {
+        "Business Category": "Rare Disease",
+        "Candidate Code": "C339a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Diane Thara",
+        "Project Name": "DMD GTx IV - Amb",
+        "Project Reporting Name": "DMD GTx Ambulatory"
+      }
+    },
+    {
+      "SimulationId": "2ce9d305-981d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "a212b40c-9b08-410e-bc96-6cf24717b45c",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/62a1b8eb-ceec-4981-a762-554a758537a6/a212b40c-9b08-410e-bc96-6cf24717b45c/input",
+      "ParentId": "62a1b8eb-ceec-4981-a762-554a758537a6",
+      "ParentName": "DMD GTx IV - Non-Amb - C339d",
+      "Properties": {
+        "Business Category": "Rare Disease",
+        "Candidate Code": "C339d",
+        "Candidate Type": "NME",
+        "PDA Representative": "Diane Thara",
+        "Project Name": "DMD GTx IV - Non-Amb",
+        "Project Reporting Name": "DMD GTx Non-Ambulatory"
+      }
+    },
+    {
+      "SimulationId": "f50fcc29-b4f0-ec11-b47a-0003ffebd6d2_50",
+      "ModelId": "70ba91b0-6507-495e-91a8-a27ef93e9c3c",
+      "ModelType": "ProgramOption",
+      "ModelName": "GEP",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/896866ba-8dde-4e49-80d0-eccb7feb0a90/70ba91b0-6507-495e-91a8-a27ef93e9c3c/input",
+      "ParentId": "896866ba-8dde-4e49-80d0-eccb7feb0a90",
+      "ParentName": "ARV-471 1L HR+/HER2- mBC - C489b",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C489b",
+        "Candidate Type": "PE",
+        "PDA Representative": "Aadith Penmetsa",
+        "Project Name": "ARV-471 1L HR+/HER2- mBC",
+        "Project Reporting Name": "ARV-471 1L HR+/HER2- mBC"
+      }
+    },
+    {
+      "SimulationId": "fcead59b-8c24-ed11-ae83-cc60c88f79e1_10",
+      "ModelId": "f13c1d42-fe7d-4b08-8485-5658415d535f",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/b02d3e1b-dc1f-49bb-b5a4-e104394045a8/f13c1d42-fe7d-4b08-8485-5658415d535f/input",
+      "ParentId": "b02d3e1b-dc1f-49bb-b5a4-e104394045a8",
+      "ParentName": "CDK2+palbo+ET - C416b",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C416b",
+        "Candidate Type": "NME",
+        "PDA Representative": "Peter Hogue",
+        "Project Name": "CDK2+palbo+ET",
+        "Project Reporting Name": "CDK2+palbo+ET"
+      }
+    },
+    {
+      "SimulationId": "35fd1dd2-04cb-ec11-997e-0003ffebe488_115",
+      "ModelId": "205d5a6d-c391-4eb4-835a-8a2c0181752f",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/a14192f1-2e2a-48d2-bc51-60e0521ad4b5/205d5a6d-c391-4eb4-835a-8a2c0181752f/input",
+      "ParentId": "a14192f1-2e2a-48d2-bc51-60e0521ad4b5",
+      "ParentName": "Braftovi / Mektovi BRAF+ Melanoma triplet - C422d",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C422d",
+        "Candidate Type": "PE",
+        "PDA Representative": "Peter Hogue",
+        "Project Name": "Braftovi / Mektovi BRAF+ Melanoma triplet",
+        "Project Reporting Name": "Braftovi / Mektovi BRAF+ Melanoma triplet"
+      }
+    },
+    {
+      "SimulationId": "0d700f93-84d7-ec11-b656-0003ffeb75b3_95",
+      "ModelId": "4fc10228-cc8d-41c9-9afe-872db6a733a2",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/c360ee71-18a2-40e9-9ce3-8ebba6811b2f/4fc10228-cc8d-41c9-9afe-872db6a733a2/input",
+      "ParentId": "c360ee71-18a2-40e9-9ce3-8ebba6811b2f",
+      "ParentName": "Eucrisa Flare Prevention - C329a_1",
+      "Properties": {
+        "Business Category": "I&I",
+        "Candidate Code": "C329a_1",
+        "Candidate Type": "PE",
+        "PDA Representative": "Jim Albright",
+        "Project Name": "Eucrisa Flare Prevention",
+        "Project Reporting Name": "Eucrisa Flare Prevention"
+      }
+    },
+    {
+      "SimulationId": "d35cd95f-8f28-ed11-ae83-cc60c88f43e3_8",
+      "ModelId": "b8c6ad1f-9f46-4c54-be25-73ae88efe002",
+      "ModelType": "ProgramOption",
+      "ModelName": "Base Case",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/a61e85f3-e1cf-4c26-a8ea-72bda2dca912/b8c6ad1f-9f46-4c54-be25-73ae88efe002/input",
+      "ParentId": "a61e85f3-e1cf-4c26-a8ea-72bda2dca912",
+      "ParentName": "FMGX_V3",
+      "Properties": {
+        "Business Category": "Hospital",
+        "Candidate Code": "C479a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Robert Abramov",
+        "Project Name": "Fosmanogepix - PF-07842805",
+        "Project Reporting Name": "Fosmanogepix - PF-07842805"
+      }
+    },
+    {
+      "SimulationId": "bbd93ba9-ea02-ed11-b47a-0003ffebd6d2_38",
+      "ModelId": "0c5b3fe8-e74c-45bb-90eb-08460320945f",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/c0cb5851-de65-492c-b5d0-1c6a5176f425/0c5b3fe8-e74c-45bb-90eb-08460320945f/input",
+      "ParentId": "c0cb5851-de65-492c-b5d0-1c6a5176f425",
+      "ParentName": "Etrasimod Crohns Disease - C504b",
+      "Properties": {
+        "Business Category": "I&I",
+        "Candidate Code": "C504b",
+        "Candidate Type": "PE",
+        "PDA Representative": "Jim Albright",
+        "Project Name": "Etrasimod Crohns Disease",
+        "Project Reporting Name": "Etrasimod Crohn's"
+      }
+    },
+    {
+      "SimulationId": "7d8290ff-e3e0-ec11-b656-0003ffeb75b3_76",
+      "ModelId": "9f3a1f54-385a-43b6-b8ca-6e4521429393",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/5a563107-17f0-4a59-a5bf-ef5a8870e2a6/9f3a1f54-385a-43b6-b8ca-6e4521429393/input",
+      "ParentId": "5a563107-17f0-4a59-a5bf-ef5a8870e2a6",
+      "ParentName": "PF-06425090 C. diff vax - B509a",
+      "Properties": {
+        "Business Category": "Vaccines",
+        "Candidate Code": "B509a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Michael Rodriguez ",
+        "Project Name": "PF-06425090 C. diff vax",
+        "Project Reporting Name": "C. difficile vaccine"
+      }
+    },
+    {
+      "SimulationId": "4d6dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "593a244f-2ca6-4ba2-9b2f-5fb89fbf175c",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/348e6844-f5a9-4a84-84bc-8fd2aaddcf1c/593a244f-2ca6-4ba2-9b2f-5fb89fbf175c/input",
+      "ParentId": "348e6844-f5a9-4a84-84bc-8fd2aaddcf1c",
+      "ParentName": "Orgovyx - Endometriosis - C475c",
+      "Properties": {
+        "Business Category": "IM",
+        "Candidate Code": "C475c",
+        "Candidate Type": "PE",
+        "PDA Representative": "Dave Culhane",
+        "Project Name": "Orgovyx - Endometriosis",
+        "Project Reporting Name": "Orgovyx - Endometriosis"
+      }
+    },
+    {
+      "SimulationId": "526dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "d4f3a3bc-a4d9-40db-90c7-61c25a9fe1c6",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/8fc06ded-f962-4c16-a0b8-cd0f37ce3896/d4f3a3bc-a4d9-40db-90c7-61c25a9fe1c6/input",
+      "ParentId": "8fc06ded-f962-4c16-a0b8-cd0f37ce3896",
+      "ParentName": "PF-04965842 JAK1 Atopic Dermatitis - B745d",
+      "Properties": {
+        "Business Category": "I&I",
+        "Candidate Code": "B745d",
+        "Candidate Type": "NME",
+        "PDA Representative": "Jim Albright",
+        "Project Name": "Abrocitinib (JAK1) AD",
+        "Project Reporting Name": "PF-04965842 JAK1 Atopic Dermatitis"
+      }
+    },
+    {
+      "SimulationId": "5c6dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "da29e897-d6a5-4a98-be63-7eb05863e7b1",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/8d244697-3c00-4ffa-b660-7effb154a3c5/da29e897-d6a5-4a98-be63-7eb05863e7b1/input",
+      "ParentId": "8d244697-3c00-4ffa-b660-7effb154a3c5",
+      "ParentName": "PF-06651600 JAK3 Alopecia - B798d",
+      "Properties": {
+        "Business Category": "I&I",
+        "Candidate Code": "B798d",
+        "Candidate Type": "NME",
+        "PDA Representative": "Jim Albright",
+        "Project Name": "PF-06651600 JAK3 Alopecia",
+        "Project Reporting Name": "Ritlecitinib (JAK3/TEC) Alopecia"
+      }
+    },
+    {
+      "SimulationId": "616dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "2f89e664-3314-4b13-93dc-129ade6142f5",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/bf76695e-2396-46ab-a3a0-7372eaef8b43/2f89e664-3314-4b13-93dc-129ade6142f5/input",
+      "ParentId": "bf76695e-2396-46ab-a3a0-7372eaef8b43",
+      "ParentName": "PF-06741086 TFPI hemo - B784a",
+      "Properties": {
+        "Business Category": "Rare Disease",
+        "Candidate Code": "B784a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Diane Thara",
+        "Project Name": "PF-06741086 TFPI hemo",
+        "Project Reporting Name": "Marstacimab (aTFPI) Hemophilia"
+      }
+    },
+    {
+      "SimulationId": "166dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "3bfd4ab8-a939-4de4-b306-ba6aef76c22a",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/d1080ec2-a886-4256-ae00-a53c060c4e8c/3bfd4ab8-a939-4de4-b306-ba6aef76c22a/input",
+      "ParentId": "d1080ec2-a886-4256-ae00-a53c060c4e8c",
+      "ParentName": "Elranatamab BCMA-BS MM Triple R/R - C107a",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C107a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Peter Hogue",
+        "Project Name": "Elranatamab BCMA-BS MM Triple R/R",
+        "Project Reporting Name": "Elranatamab MM Triple R/R"
+      }
+    },
+    {
+      "SimulationId": "796dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "b8468148-b937-49c1-82e7-8c7ac8690507",
+      "ModelType": "ProgramOption",
+      "ModelName": "WIP",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/3ebcf0e9-5be4-46da-be17-722181bce12a/b8468148-b937-49c1-82e7-8c7ac8690507/input",
+      "ParentId": "3ebcf0e9-5be4-46da-be17-722181bce12a",
+      "ParentName": "Pneumococal Next Generation Vaccine - Infant - B747c",
+      "Properties": {
+        "Business Category": "Vaccines",
+        "Candidate Code": "B747c",
+        "Candidate Type": "NME",
+        "PDA Representative": "Michael Rodriguez",
+        "Project Name": "PCV20 Infant",
+        "Project Reporting Name": "PCV20 Infant"
+      }
+    },
+    {
+      "SimulationId": "8e6dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "5f84c3e3-6ce6-4992-8467-b4cc2a2258dc",
+      "ModelType": "ProgramOption",
+      "ModelName": "LPD",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/8b052b8c-7b6f-4caa-bef7-54dde7ec5536/5f84c3e3-6ce6-4992-8467-b4cc2a2258dc/input",
+      "ParentId": "8b052b8c-7b6f-4caa-bef7-54dde7ec5536",
+      "ParentName": "RSV Maternal - C367b",
+      "Properties": {
+        "Business Category": "Vaccines",
+        "Candidate Code": "C367b",
+        "Candidate Type": "PE",
+        "PDA Representative": "Michael Rodriguez",
+        "Project Name": "RSV Maternal Vaccine",
+        "Project Reporting Name": "RSV Maternal Vaccine"
+      }
+    },
+    {
+      "SimulationId": "936dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "040d716f-1dd7-4db2-befb-8c01be379db0",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/0fe38b73-d257-432c-8981-8e256318982f/040d716f-1dd7-4db2-befb-8c01be379db0/input",
+      "ParentId": "0fe38b73-d257-432c-8981-8e256318982f",
+      "ParentName": "RSV Older Adult - C367a",
+      "Properties": {
+        "Business Category": "Vaccines",
+        "Candidate Code": "C367a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Michael Rodriguez",
+        "Project Name": "RSV Older Adult",
+        "Project Reporting Name": "RSV Older Adult"
+      }
+    },
+    {
+      "SimulationId": "c429c188-6b1e-ed11-bd6e-cc60c88f7e60_23",
+      "ModelId": "daf19cda-3655-465a-b327-4a6b10d40a96",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/7e88ff03-81a1-45bb-b44e-b84536211843/daf19cda-3655-465a-b327-4a6b10d40a96/input",
+      "ParentId": "7e88ff03-81a1-45bb-b44e-b84536211843",
+      "ParentName": "Tala + Enza mCSPC DDR only - C344w",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C344w",
+        "Candidate Type": "PE",
+        "PDA Representative": "Peter Hogue",
+        "Project Name": "Tala + EnzamCSPC DDR Only",
+        "Project Reporting Name": "Tala + EnzamCSPC DDR Only"
+      }
+    },
+    {
+      "SimulationId": "ee29c188-6b1e-ed11-bd6e-cc60c88f7e60_23",
+      "ModelId": "368af7a2-d7b9-4eda-8026-f950ee4dc6fd",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/35c36541-6414-45f0-b68d-6144ecdf81a0/368af7a2-d7b9-4eda-8026-f950ee4dc6fd/input",
+      "ParentId": "35c36541-6414-45f0-b68d-6144ecdf81a0",
+      "ParentName": "Tala mCRPC HRD+ pre-chemo - C344f",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C344f",
+        "Candidate Type": "PE",
+        "PDA Representative": "Peter Hogue",
+        "Project Name": "Tala mCRPC HRD+ pre-chemo",
+        "Project Reporting Name": "Talzenna + Xtandi mCRPC (TALAPRO-2)"
+      }
+    },
+    {
+      "SimulationId": "1c1889fe-971d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "92f4bf9a-38dd-4a72-9ca2-4324d66a11f4",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/455c1296-3d84-4efd-82a9-633cdaee93f4/92f4bf9a-38dd-4a72-9ca2-4324d66a11f4/input",
+      "ParentId": "455c1296-3d84-4efd-82a9-633cdaee93f4",
+      "ParentName": "Braftovi / Mektovi BRAF+ CRC 1L - C422f",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C422f",
+        "Candidate Type": "PE",
+        "PDA Representative": "Peter Houge",
+        "Project Name": "Braftovi / Mektovi BRAF+ CRC 1L",
+        "Project Reporting Name": "BRAF Combo CRC 1L"
+      }
+    },
+    {
+      "SimulationId": "211889fe-971d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "f056872d-e707-4327-a1ca-1c6e35d50502",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/dcfa3eb1-d1ec-4be5-b36c-3ecca1bbd2f9/f056872d-e707-4327-a1ca-1c6e35d50502/input",
+      "ParentId": "dcfa3eb1-d1ec-4be5-b36c-3ecca1bbd2f9",
+      "ParentName": "Braftovi / Mektovi BRAF+ NSCLC - C422i",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C422i",
+        "Candidate Type": "PE",
+        "PDA Representative": "Peter Hogue",
+        "Project Name": "Braftovi / Mektovi BRAF+ NSCLC",
+        "Project Reporting Name": "BRAF Combo NSCLC"
+      }
+    },
+    {
+      "SimulationId": "67fd1dd2-04cb-ec11-997e-0003ffebe488_115",
+      "ModelId": "41c7e6a8-f8bf-450d-b970-78fe042e3534",
+      "ModelType": "ProgramOption",
+      "ModelName": "LPD",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/69c9390f-3cae-475c-9a64-5b76a8ec7f51/41c7e6a8-f8bf-450d-b970-78fe042e3534/input",
+      "ParentId": "69c9390f-3cae-475c-9a64-5b76a8ec7f51",
+      "ParentName": "VLA15 Lyme Vaccine - C460a",
+      "Properties": {
+        "Business Category": "Vaccines",
+        "Candidate Code": "C460a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Michael Rodriguez",
+        "Project Name": "VLA15 Lyme Vaccine",
+        "Project Reporting Name": "Valneva Lyme Vaccine "
+      }
+    },
+    {
+      "SimulationId": "6cfd1dd2-04cb-ec11-997e-0003ffebe488_115",
+      "ModelId": "98f7d5a7-477d-40c2-bdf8-0dad167abeb0",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/9a67abb9-8404-404b-937a-6ddbe573572a/98f7d5a7-477d-40c2-bdf8-0dad167abeb0/input",
+      "ParentId": "9a67abb9-8404-404b-937a-6ddbe573572a",
+      "ParentName": "Xtandi nmHSPC (EMBARK) - C343d",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C343d",
+        "Candidate Type": "PE",
+        "PDA Representative": "Peter Hogue",
+        "Project Name": "Xtandi nmHSPC (EMBARK)",
+        "Project Reporting Name": "Xtandi nmHSPC (EMBARK)"
+      }
+    },
+    {
+      "SimulationId": "895a4eed-971d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "a96b4978-dc18-4f14-978f-c191096f246a",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/da0b6922-fe4c-49d0-8d9e-e8065c285706/a96b4978-dc18-4f14-978f-c191096f246a/input",
+      "ParentId": "da0b6922-fe4c-49d0-8d9e-e8065c285706",
+      "ParentName": "Adalimumab Biosimilar (INTC and EU Manuf) - B538c",
+      "Properties": {
+        "Business Category": "I&I",
+        "Candidate Code": "B538c",
+        "Candidate Type": "Biosimilar",
+        "PDA Representative": null,
+        "Project Name": "Adalimumab Biosimilar (INTC and EU Manuf)",
+        "Project Reporting Name": "Adalimumab Biosim RA"
+      }
+    },
+    {
+      "SimulationId": "8e5a4eed-971d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "6cd90e1a-475d-4dfe-a144-d8d9677d7848",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/73ce753b-72e6-4bfd-a235-590581e4d614/6cd90e1a-475d-4dfe-a144-d8d9677d7848/input",
+      "ParentId": "73ce753b-72e6-4bfd-a235-590581e4d614",
+      "ParentName": "ARV-471 2L+ HR+/HER2- mBC - C489a",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C489a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Aadith Penmetsa",
+        "Project Name": "ARV-471 2L+ HR+/HER2- mBC",
+        "Project Reporting Name": "ARV-471 2L+ HR+/HER2- mBC"
+      }
+    },
+    {
+      "SimulationId": "935a4eed-971d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "8d7a2c89-49d8-470c-88df-4e155da599b2",
+      "ModelType": "ProgramOption",
+      "ModelName": "LPD",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/ee57bbf3-b1a6-4417-8143-c8375f026ed6/8d7a2c89-49d8-470c-88df-4e155da599b2/input",
+      "ParentId": "ee57bbf3-b1a6-4417-8143-c8375f026ed6",
+      "ParentName": "ARV-471 Early Breast Cancer HR+/HER2 - C489c",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C489c",
+        "Candidate Type": "PE",
+        "PDA Representative": "Aadith Penmetsa",
+        "Project Name": "ARV-471 Early Breast Cancer HR+/HER2",
+        "Project Reporting Name": "ARV-471 Early Breast Cancer HR+/HER2"
+      }
+    },
+    {
+      "SimulationId": "cabaccf5-971d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "6a646881-5314-479d-9ed2-dd9257466dc0",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/dd1df2f7-ad8a-4ed8-870a-c5b3484e351a/6a646881-5314-479d-9ed2-dd9257466dc0/input",
+      "ParentId": "dd1df2f7-ad8a-4ed8-870a-c5b3484e351a",
+      "ParentName": "ATM-AVI - C360a",
+      "Properties": {
+        "Business Category": "Hospital",
+        "Candidate Code": "C360a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Robert Abramov",
+        "Project Name": "ATM_AVI",
+        "Project Reporting Name": "ATM_AVI"
+      }
+    },
+    {
+      "SimulationId": "026dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "73768b99-6dfb-41d9-a18f-7eb420d972fa",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/3d807e84-ab3d-47ef-8d66-f5061ff61635/73768b99-6dfb-41d9-a18f-7eb420d972fa/input",
+      "ParentId": "3d807e84-ab3d-47ef-8d66-f5061ff61635",
+      "ParentName": "Elranatamab BCMA-BS MM Double R/R - C107c",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C107c",
+        "Candidate Type": "PE",
+        "PDA Representative": "Peter Hogue",
+        "Project Name": "Elranatamab BCMA-BS MM Double R/R",
+        "Project Reporting Name": "Elranatamab BCMA-BS MM Double R/R"
+      }
+    },
+    {
+      "SimulationId": "472070cd-981d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "45d92da1-faea-4bd7-9423-bc1f64f4f221",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/b6444323-0b7d-455c-80c7-56d00b349c22/45d92da1-faea-4bd7-9423-bc1f64f4f221/input",
+      "ParentId": "b6444323-0b7d-455c-80c7-56d00b349c22",
+      "ParentName": "GBS Maternal - C109a",
+      "Properties": {
+        "Business Category": "Vaccines",
+        "Candidate Code": "C109a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Michael Rodriguez",
+        "Project Name": "GBS Maternal",
+        "Project Reporting Name": "GBS Maternal Vaccine"
+      }
+    },
+    {
+      "SimulationId": "a7dfbef5-981d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "db2942e4-5998-46b2-8a72-9e31810b272e",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/19c8376a-056d-46e2-826e-f5859737ab8d/db2942e4-5998-46b2-8a72-9e31810b272e/input",
+      "ParentId": "19c8376a-056d-46e2-826e-f5859737ab8d",
+      "ParentName": "PF-06651600 JAK3 Vitiligo - B798h",
+      "Properties": {
+        "Business Category": "I&I",
+        "Candidate Code": "B798h",
+        "Candidate Type": "NME",
+        "PDA Representative": "Jim Albright",
+        "Project Name": "PF-06651600 JAK3 Vitiligo",
+        "Project Reporting Name": "Ritlecitinib (JAK3/TEC) Vitiligo"
+      }
+    },
+    {
+      "SimulationId": "076dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "1ce4f877-abee-4a68-8202-1f9622dbbf78",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/8d9be667-d238-4501-a0d4-c433434145cc/1ce4f877-abee-4a68-8202-1f9622dbbf78/input",
+      "ParentId": "8d9be667-d238-4501-a0d4-c433434145cc",
+      "ParentName": "Elranatamab BCMA-BS MM MRD+ - C107i",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C107i",
+        "Candidate Type": "PE",
+        "PDA Representative": "Peter Hogue",
+        "Project Name": "Elranatamab BCMA-BS MM MRD+",
+        "Project Reporting Name": "Elranatamab BCMA-BS MM Newly-diagnosed TE"
+      }
+    },
+    {
+      "SimulationId": "0c6dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "e4a0aea7-475b-4459-9148-de2478e19c5c",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/9eceb3af-f554-4323-9202-484e67ce1877/e4a0aea7-475b-4459-9148-de2478e19c5c/input",
+      "ParentId": "9eceb3af-f554-4323-9202-484e67ce1877",
+      "ParentName": "Elranatamab BCMA-BS MM Newly-Diagnosed - C107d",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "C107d",
+        "Candidate Type": "PE",
+        "PDA Representative": "Peter Hogue",
+        "Project Name": "Elranatamab BCMA-BS MM Newly-Diagnosed",
+        "Project Reporting Name": "Elranatamab BCMA-BS MM Newly-diagnosed TI"
+      }
+    },
+    {
+      "SimulationId": "2f6dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "cf514421-add1-4030-8d08-e91c1eeaf47f",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/d00da901-6428-4d63-bf93-4540e04c25d6/cf514421-add1-4030-8d08-e91c1eeaf47f/input",
+      "ParentId": "d00da901-6428-4d63-bf93-4540e04c25d6",
+      "ParentName": "Etrasimod Ulcerative Colitis - C504a",
+      "Properties": {
+        "Business Category": "I&I",
+        "Candidate Code": "C504a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Jim Albright",
+        "Project Name": "Etrasimod Ulcerative Colitis",
+        "Project Reporting Name": "Etrasimod UC"
+      }
+    },
+    {
+      "SimulationId": "396dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "67ed2dc4-1547-4ac2-bf5e-e4b0c95f1c70",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/aca96a8f-7c19-444f-96ee-f2fd934c280b/67ed2dc4-1547-4ac2-bf5e-e4b0c95f1c70/input",
+      "ParentId": "aca96a8f-7c19-444f-96ee-f2fd934c280b",
+      "ParentName": "Hem B FIX GTx (SPK) - C037a",
+      "Properties": {
+        "Business Category": "Rare Disease",
+        "Candidate Code": "C037a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Diane Thara",
+        "Project Name": "Hem B FIX GTx (SPK)",
+        "Project Reporting Name": "FidaVec HemB GTx"
+      }
+    },
+    {
+      "SimulationId": "3e6dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "5d0432f5-7b0b-49d9-8ae2-d22f0fff7be9",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/00c9dbf6-aa75-4455-98fc-0a6bb612192d/5d0432f5-7b0b-49d9-8ae2-d22f0fff7be9/input",
+      "ParentId": "00c9dbf6-aa75-4455-98fc-0a6bb612192d",
+      "ParentName": "HemA GTx - C373a",
+      "Properties": {
+        "Business Category": "Rare Disease",
+        "Candidate Code": "C373a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Diane Thara",
+        "Project Name": "HemA GTx",
+        "Project Reporting Name": "GiroctoVec HemA GTx"
+      }
+    },
+    {
+      "SimulationId": "436dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "46456f41-23d7-4a68-8ed2-1d7da959f751",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/a5076ea9-e865-4eda-8476-1c0508e5da52/46456f41-23d7-4a68-8ed2-1d7da959f751/input",
+      "ParentId": "a5076ea9-e865-4eda-8476-1c0508e5da52",
+      "ParentName": "Ibrance Her2+ ABC - A548i",
+      "Properties": {
+        "Business Category": "Oncology",
+        "Candidate Code": "A548i",
+        "Candidate Type": "PE",
+        "PDA Representative": "Peter Hogue",
+        "Project Name": "Ibrance HER2+ ABC",
+        "Project Reporting Name": "Ibrance HER2+ ABC"
+      }
+    },
+    {
+      "SimulationId": "486dc9a9-94d0-ec11-b656-0003ffeb75b3_108",
+      "ModelId": "9425dab8-dd89-4e17-b4ee-d0cc7fa9ed99",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/0f0255da-5da4-4f2a-a6d7-5de029d34f1f/9425dab8-dd89-4e17-b4ee-d0cc7fa9ed99/input",
+      "ParentId": "0f0255da-5da4-4f2a-a6d7-5de029d34f1f",
+      "ParentName": "Mn ACWYB vaccine (Penta Adolescent US) - C351a",
+      "Properties": {
+        "Business Category": "Vaccines",
+        "Candidate Code": "C351a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Michael Rodriguez ",
+        "Project Name": "Mn ACWYB vaccine (Penta Adolescent US)",
+        "Project Reporting Name": "Meningococcal Pentavalent Vaccine"
+      }
+    },
+    {
+      "SimulationId": "fd2d4f1a-991d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "1bb341a8-2bb9-4820-a3b5-94e06640a128",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/f5d9e90e-016f-4328-86bb-2b8ba89ed93f/1bb341a8-2bb9-4820-a3b5-94e06640a128/input",
+      "ParentId": "f5d9e90e-016f-4328-86bb-2b8ba89ed93f",
+      "ParentName": "Pneumococcal Next Generation Vaccine - Adult - ex-US - B747a",
+      "Properties": {
+        "Business Category": "Vaccines",
+        "Candidate Code": "B747a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Michael Rodriguez",
+        "Project Name": "PCV20 Adult",
+        "Project Reporting Name": "PCV20 Adult"
+      }
+    },
+    {
+      "SimulationId": "e1019d33-991d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "c8402113-b7cd-472a-98d5-07a24223226f",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/960d97be-1865-4002-a990-24d7b89972d8/c8402113-b7cd-472a-98d5-07a24223226f/input",
+      "ParentId": "960d97be-1865-4002-a990-24d7b89972d8",
+      "ParentName": "SARS 3CL protease inhibitor oral antiviral - C467a",
+      "Properties": {
+        "Business Category": "Hospital",
+        "Candidate Code": "C467a",
+        "Candidate Type": "NME",
+        "PDA Representative": "Dave Culhane",
+        "Project Name": "SARS 3CL protease inhibitor oral antiviral",
+        "Project Reporting Name": "SARS 3CL protease inhibitor oral antiviral"
+      }
+    },
+    {
+      "SimulationId": "e6019d33-991d-ed11-bd6e-cc60c88f7e60_25",
+      "ModelId": "a5f23abd-4725-493f-97fd-bd82a1ea3b79",
+      "ModelType": "ProgramOption",
+      "ModelName": "Default",
+      "ModelURL": "/initiative/406c03a5-9d43-4f59-aa5c-360d88eb3f02/project/ba14cac9-3b75-4723-a149-facd8f768b68/a5f23abd-4725-493f-97fd-bd82a1ea3b79/input",
+      "ParentId": "ba14cac9-3b75-4723-a149-facd8f768b68",
+      "ParentName": "Somatrogon (MOD-4023) - Peds GHD - C031b",
+      "Properties": {
+        "Business Category": "Rare Disease",
+        "Candidate Code": "C031b",
+        "Candidate Type": "NME",
+        "PDA Representative": "Diane Thara",
+        "Project Name": "Somatrogon (MOD-4023) - Peds GHD",
+        "Project Reporting Name": "Somatrogon GHD Peds"
+      }
+    }
+  ]
+}
