@@ -20,6 +20,7 @@ def read_sharepoint_list(site_url, client_id, client_secret, list_name):
         items = sp_list.get_items()
         ctx.load(items)
         ctx.execute_query()
+        #view_fields = default_view.view_fields
         #data = [{field: item.properties[field] for field in view_fields} for item in items]
         return pd.DataFrame([item.properties for item in items])
     except Exception as e:
