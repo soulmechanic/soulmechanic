@@ -293,3 +293,17 @@ for lob in list_of_lobs:
     f_attribute_df = attribute_df[attribute_df['LOB'].str.contains(lob, case=False, na=False)]
     add_data_validation_to_column(lob, f_attribute_df, column_mapping_df, drop_down_mapping_df, password)
 
+from openpyxl.utils import get_column_letter
+
+def get_excel_column_letter_from_value(file_name, target_value):
+    workbook = load_workbook(filename=file_name)
+    sheet = workbook.active
+
+    for cell in sheet[1]:  # Iterate over the cells in the first row
+        if cell.value == target_value:
+            return get_column_letter(cell.column)  # Return the column letter if the cell value matches the target value
+
+    return None  # Return None if no match is found
+
+# Test the function
+print(get_excel_column_letter_from_value('your_file.xlsx', 'your_target_value'))
