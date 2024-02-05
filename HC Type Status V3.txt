@@ -1,0 +1,196 @@
+=IF(
+	AND(
+		ISBLANK([Hiring Manager Status]), 
+		
+		ISBLANK([adlDemand]), 
+		
+		ISBLANK([Descoped])
+		),
+   "Pipeline",
+      IF(
+       AND(
+           NOT(ISBLANK([Hiring Manager Status])),
+		   
+		   ISBLANK([Date of Joining]),
+		   
+		   ISBLANK([CD CoE Billing Rate]),
+
+		   ISBLANK([Position ID]),
+		   
+		   [Position ID Status] ="Position To Be Created",
+		   
+		   ISBLANK([JR Number]),
+
+		   ISBLANK([Descoped])
+			),
+       "Open",
+	   
+	  IF(
+       AND(
+           NOT(ISBLANK([Hiring Manager Status])),
+		   
+		   ISBLANK([Date of Joining]),
+		   
+		   ISBLANK([CD CoE Billing Rate]),
+
+		   NOT(ISBLANK([Position ID])),
+		   
+		   ISBLANK([JR Number]),
+
+		   ISBLANK([Descoped]),
+		OR(   
+		   [Position ID Status] ="Position Pending Approval",
+		   
+		   [Position ID Status] ="Position Approved"
+		   )
+		   ),
+       "Open",
+	     
+	IF(
+       AND(
+           NOT(ISBLANK([Hiring Manager Status])),
+		   
+		   ISBLANK([Date of Joining]),
+		   
+		   ISBLANK([CD CoE Billing Rate]),
+
+		   NOT(ISBLANK([Position ID])),
+		   
+		   [Position ID Status] ="Position Approved",
+		   
+		   NOT(ISBLANK([JR Number])),
+
+		   ISBLANK([Descoped])
+			),
+       "Open",
+	   
+	IF(
+       AND(
+           NOT(ISBLANK([Hiring Manager Status])),
+		   
+		   NOT(ISBLANK([CD CoE Billing Rate])),
+		   
+           [Date of Joining] >= Today(),
+		   
+           ISBLANK([adlDemand]),
+		   
+		   ISBLANK([Descoped])
+			),
+       "Offered",
+       IF(
+           AND(
+				NOT(ISBLANK([Date of Joining])),
+				
+               [Date of Joining] <= Today(),
+			   
+			   NOT(ISBLANK([Allocation End Date])),
+				   
+			   [Allocation End Date] > Today(),
+			   
+               NOT(ISBLANK([Hiring Manager Status])),
+			   
+               NOT(ISBLANK([Position ID])),
+			   
+			   NOT(ISBLANK([JR Number])),
+			   
+			   NOT(ISBLANK([CD CoE Billing Rate])),
+			   
+               ISBLANK([adlDemand]),
+			   
+			   ISBLANK([Descoped])
+				),
+           "Active",
+
+
+                   IF(
+						AND(
+							[Descoped] = "Descoped",
+							NOT(ISBLANK([Descoped]))							
+							),
+							"Descoped",
+                       IF(
+                           AND(
+						   
+								NOT(ISBLANK([Date of Joining])),
+
+								[Date of Joining] <= Today(),
+						   
+								NOT(ISBLANK([Allocation End Date])),
+								
+								[Allocation End Date] >= Today(),
+						   
+								NOT(ISBLANK([Hiring Manager Status])),
+						   
+								NOT(ISBLANK([Position ID])),
+								
+								NOT(ISBLANK([Bank ID])),
+					   
+								NOT(ISBLANK([JR Number])),
+						   
+								NOT(ISBLANK([CD CoE Billing Rate])),
+								
+								NOT(ISBLANK([adlDemand])),
+																
+								ISBLANK([Descoped])
+								),						   
+                           "adlDemand",
+						   
+						    IF(
+							   AND(
+								   NOT(ISBLANK([Date of Joining])),
+								
+								   [Date of Joining] <= Today(),
+								   
+								   NOT(ISBLANK([Allocation End Date])),
+								   
+								   [Allocation End Date] < Today(),
+								   
+								   NOT(ISBLANK([Hiring Manager Status])),
+								   
+								   NOT(ISBLANK([Position ID])),
+							   
+								   NOT(ISBLANK([JR Number])),
+								   
+								   NOT(ISBLANK([CD CoE Billing Rate])),
+
+								   ISBLANK([Descoped]),
+								   
+								   OR(
+								   ISBLANK([Last Working Day]),
+								   [Last Working Day] > Today()
+								   )
+								),
+								"Archive",
+								
+							
+						   
+							IF(
+							   AND(
+									NOT(ISBLANK([Date of Joining])),				
+							   
+									NOT(ISBLANK([Allocation End Date])),
+							   
+									NOT(ISBLANK([Hiring Manager Status])),
+							   
+									NOT(ISBLANK([Position ID])),
+						   
+									NOT(ISBLANK([JR Number])),
+							   
+									NOT(ISBLANK([CD CoE Billing Rate])),
+
+									ISBLANK([Descoped]),
+									
+									NOT(ISBLANK([Last Working Day])),
+									
+									[Last Working Day]< Today()
+									),
+							   "Exit", "Please Make Sure You Fill all the requried fields to Show the Status"
+                       )
+                   )
+               )
+           )
+       )
+   )
+)
+)
+)
