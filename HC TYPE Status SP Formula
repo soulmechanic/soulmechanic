@@ -1,0 +1,272 @@
+=IF(
+    AND(
+        ISBLANK(
+            [HC Type Status Override]
+        ),
+        ISBLANK(
+            [Position ID]
+        ),
+        [Position ID Status] = "Position To Be Created",
+        ISBLANK(
+            [JR Number]
+        ),
+        ISBLANK(
+            [CD CoE Billing Rate]
+        ),
+        ISBLANK(
+            [Allocation End Date]
+        ),
+        ISBLANK(
+            [Date of Joining]
+        ),
+        ISBLANK(
+            adlDemand
+        ),
+        ISBLANK(
+            Descoped
+        ),
+        ISBLANK(
+            [Last Working Day]
+        )
+    ),
+    "Pipeline",
+    IF(
+        AND(
+            NOT(
+                ISBLANK(
+                    [HC Type Status Override]
+                )
+            ),
+            [HC Type Status Override] = "Open",
+            ISBLANK(
+                [Date of Joining]
+            ),
+            ISBLANK(
+                [CD CoE Billing Rate]
+            ),
+            ISBLANK(
+                Descoped
+            )
+        ),
+        "Open",
+        IF(
+            AND(
+                NOT(
+                    ISBLANK(
+                        [HC Type Status Override]
+                    )
+                ),
+                [HC Type Status Override] = "Open",
+                NOT(
+                    ISBLANK(
+                        [CD CoE Billing Rate]
+                    )
+                ),
+                [Date of Joining] > (TODAY() + 1 ),
+                ISBLANK(
+                    adlDemand
+                ),
+                ISBLANK(
+                    Descoped
+                )
+            ),
+            "Offered",
+            IF(
+                AND(
+                    NOT(
+                        ISBLANK(
+                            [HC Type Status Override]
+                        )
+                    ),
+                    [HC Type Status Override] = "Open",
+                    NOT(
+                        ISBLANK(
+                            [Date of Joining]
+                        )
+                    ),
+                    [Date of Joining] <= (TODAY() + 1 ),
+                    NOT(
+                        ISBLANK(
+                            [Allocation End Date]
+                        )
+                    ),
+                    [Allocation End Date] >= (TODAY() + 1 ),
+                    NOT(
+                        ISBLANK(
+                            [Position ID]
+                        )
+                    ),
+                    NOT(
+                        ISBLANK(
+                            [JR Number]
+                        )
+                    ),
+                    NOT(
+                        ISBLANK(
+                            [CD CoE Billing Rate]
+                        )
+                    ),
+                    ISBLANK(
+                        adlDemand
+                    ),
+                    ISBLANK(
+                        Descoped
+                    )
+                ),
+                "Active",
+                IF(
+                    AND(
+                        Descoped = "Descoped",
+                        NOT(
+                            ISBLANK(
+                                Descoped
+                            )
+                        )
+                    ),
+                    "Descoped",
+                    IF(
+                        AND(
+                            NOT(
+                                ISBLANK(
+                                    [HC Type Status Override]
+                                )
+                            ),
+                            [HC Type Status Override] = "Open",
+                            NOT(
+                                ISBLANK(
+                                    [Date of Joining]
+                                )
+                            ),
+                            [Date of Joining] <= (TODAY() + 1 ),
+                            NOT(
+                                ISBLANK(
+                                    [Allocation End Date]
+                                )
+                            ),
+                            [Allocation End Date] >= (TODAY() + 1 ),
+                            NOT(
+                                ISBLANK(
+                                    [Position ID]
+                                )
+                            ),
+                            NOT(
+                                ISBLANK(
+                                    [Bank ID]
+                                )
+                            ),
+                            NOT(
+                                ISBLANK(
+                                    [JR Number]
+                                )
+                            ),
+                            NOT(
+                                ISBLANK(
+                                    [CD CoE Billing Rate]
+                                )
+                            ),
+                            NOT(
+                                ISBLANK(
+                                    adlDemand
+                                )
+                            ),
+                            ISBLANK(
+                                Descoped
+                            )
+                        ),
+                        "adlDemand",
+                        IF(
+                            AND(
+                                NOT(
+                                    ISBLANK(
+                                        [HC Type Status Override]
+                                    )
+                                ),
+                                [HC Type Status Override] = "Open",
+                                NOT(
+                                    ISBLANK(
+                                        [Date of Joining]
+                                    )
+                                ),
+                                [Date of Joining] <= (    TODAY() + 1 ),
+                                NOT(
+                                    ISBLANK(
+                                        [Allocation End Date]
+                                    )
+                                ),
+                                [Allocation End Date] < (    TODAY() + 1 ),
+                                NOT(
+                                    ISBLANK(
+                                        [Position ID]
+                                    )
+                                ),
+                                NOT(
+                                    ISBLANK(
+                                        [JR Number]
+                                    )
+                                ),
+                                NOT(
+                                    ISBLANK(
+                                        [CD CoE Billing Rate]
+                                    )
+                                ),
+                                ISBLANK(
+                                    Descoped
+                                ),
+                                ISBLANK(
+                                    [Last Working Day]
+                                )
+                            ),
+                            "Archive",
+                            IF(
+                                AND(
+                                    NOT(
+                                        ISBLANK(
+                                            [HC Type Status Override]
+                                        )
+                                    ),
+                                    [HC Type Status Override] = "Open",
+                                    NOT(
+                                        ISBLANK(
+                                            [Date of Joining]
+                                        )
+                                    ),
+                                    NOT(
+                                        ISBLANK(
+                                            [Allocation End Date]
+                                        )
+                                    ),
+                                    NOT(
+                                        ISBLANK(
+                                            [Position ID]
+                                        )
+                                    ),
+                                    NOT(
+                                        ISBLANK(
+                                            [JR Number]
+                                        )
+                                    ),
+                                    NOT(
+                                        ISBLANK(
+                                            [CD CoE Billing Rate]
+                                        )
+                                    ),
+                                    ISBLANK(
+                                        Descoped
+                                    ),
+                                    NOT(
+                                        ISBLANK(
+                                            [Last Working Day]
+                                        )
+                                    ),
+                                    [Last Working Day] < (TODAY() + 1 )
+                                ),
+                                "Exit",
+                                "Please Make Sure You Fill all the requried fields to Show the Status"
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
+)
