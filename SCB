@@ -1,0 +1,3350 @@
+<root>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>74
+    </ItemInternalId>
+    <ID>74
+    </ID>
+    <BankID>1671107
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2022-09-12
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>17
+    </ManDays>
+    <VendorRateCard>27405
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>465885.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:20Z
+    </Created>
+    <GBSCC>3398122800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3398122800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:20Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f74_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=74&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/74_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>75
+    </ItemInternalId>
+    <ID>75
+    </ID>
+    <BankID>1670512
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2022-09-05
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>12
+    </ManDays>
+    <VendorRateCard>29531
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>354372.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:21Z
+    </Created>
+    <GBSCC>3398122800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3398122800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:21Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f75_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=75&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/75_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>76
+    </ItemInternalId>
+    <ID>76
+    </ID>
+    <BankID>8187267
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2022-10-31
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>20
+    </ManDays>
+    <VendorRateCard>17246
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>344920.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:21Z
+    </Created>
+    <GBSCC>3398118800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3398118800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:21Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f76_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=76&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/76_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>77
+    </ItemInternalId>
+    <ID>77
+    </ID>
+    <BankID>8188735
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2022-12-12
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>19
+    </ManDays>
+    <VendorRateCard>29531
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>561089.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:22Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:22Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f77_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=77&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/77_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>78
+    </ItemInternalId>
+    <ID>78
+    </ID>
+    <BankID>8189203
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-01-02
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>20
+    </ManDays>
+    <VendorRateCard>26460
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>529200.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:22Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:22Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f78_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=78&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/78_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>79
+    </ItemInternalId>
+    <ID>79
+    </ID>
+    <BankID>8190740
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-01-31
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>20.5
+    </ManDays>
+    <VendorRateCard>26460
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>542430.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:24Z
+    </Created>
+    <GBSCC>3399612800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3399612800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:24Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f79_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=79&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/79_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>80
+    </ItemInternalId>
+    <ID>80
+    </ID>
+    <BankID>8195722
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-05-22
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>21
+    </ManDays>
+    <VendorRateCard>17246
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>362166.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:25Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:25Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f80_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=80&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/80_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>81
+    </ItemInternalId>
+    <ID>81
+    </ID>
+    <BankID>8197020
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-06-16
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>19
+    </ManDays>
+    <VendorRateCard>28114
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>534166.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:24Z
+    </Created>
+    <GBSCC>3398122800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3398122800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:24Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f81_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=81&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/81_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>82
+    </ItemInternalId>
+    <ID>82
+    </ID>
+    <BankID>8198014
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-07-03
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>19.5
+    </ManDays>
+    <VendorRateCard>17955
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>350122.500000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:26Z
+    </Created>
+    <GBSCC>3398122800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3398122800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:26Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f82_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=82&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/82_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>83
+    </ItemInternalId>
+    <ID>83
+    </ID>
+    <BankID>8199312
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-08-07
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>20
+    </ManDays>
+    <VendorRateCard>23389
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>467780.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:26Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:26Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f83_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=83&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/83_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>84
+    </ItemInternalId>
+    <ID>84
+    </ID>
+    <BankID>8201258
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-09-26
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>18.5
+    </ManDays>
+    <VendorRateCard>17955
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>332167.500000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:26Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:26Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f84_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=84&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/84_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>85
+    </ItemInternalId>
+    <ID>85
+    </ID>
+    <BankID>1569002
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-07-18
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>21
+    </ManDays>
+    <VendorRateCard>31421
+    </VendorRateCard>
+    <VendorName>Deloitte
+    </VendorName>
+    <InvoiceAmount>659841.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:27Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Deloitte3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:27Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f85_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=85&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/85_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>86
+    </ItemInternalId>
+    <ID>86
+    </ID>
+    <BankID>8193187
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-04-03
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>20
+    </ManDays>
+    <VendorRateCard>28431
+    </VendorRateCard>
+    <VendorName>Genpact
+    </VendorName>
+    <InvoiceAmount>568620.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:28Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Genpact3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:28Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f86_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=86&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/86_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>87
+    </ItemInternalId>
+    <ID>87
+    </ID>
+    <BankID>8192601
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-04-03
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>19
+    </ManDays>
+    <VendorRateCard>21870
+    </VendorRateCard>
+    <VendorName>Genpact
+    </VendorName>
+    <InvoiceAmount>415530.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:28Z
+    </Created>
+    <GBSCC>3399612800
+    </GBSCC>
+    <VendorNameGBSCC>Genpact3399612800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:28Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f87_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=87&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/87_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>88
+    </ItemInternalId>
+    <ID>88
+    </ID>
+    <BankID>8193370
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-04-05
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>19
+    </ManDays>
+    <VendorRateCard>19683
+    </VendorRateCard>
+    <VendorName>Genpact
+    </VendorName>
+    <InvoiceAmount>373977.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:29Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Genpact3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:29Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f88_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=88&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/88_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>89
+    </ItemInternalId>
+    <ID>89
+    </ID>
+    <BankID>8193904
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-04-17
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>19
+    </ManDays>
+    <VendorRateCard>19246
+    </VendorRateCard>
+    <VendorName>Genpact
+    </VendorName>
+    <InvoiceAmount>365674.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:29Z
+    </Created>
+    <GBSCC>3398118800
+    </GBSCC>
+    <VendorNameGBSCC>Genpact3398118800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:29Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f89_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=89&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/89_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>90
+    </ItemInternalId>
+    <ID>90
+    </ID>
+    <BankID>8196986
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-06-14
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>18.5
+    </ManDays>
+    <VendorRateCard>19246
+    </VendorRateCard>
+    <VendorName>Genpact
+    </VendorName>
+    <InvoiceAmount>356051.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:30Z
+    </Created>
+    <GBSCC>3398122800
+    </GBSCC>
+    <VendorNameGBSCC>Genpact3398122800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:30Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f90_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=90&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/90_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>91
+    </ItemInternalId>
+    <ID>91
+    </ID>
+    <BankID>8199218
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-08-07
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>16
+    </ManDays>
+    <VendorRateCard>21870
+    </VendorRateCard>
+    <VendorName>Genpact
+    </VendorName>
+    <InvoiceAmount>349920.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:31Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Genpact3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:31Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f91_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=91&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/91_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>92
+    </ItemInternalId>
+    <ID>92
+    </ID>
+    <BankID>8200244
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2023-10-03
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>21
+    </ManDays>
+    <VendorRateCard>21870
+    </VendorRateCard>
+    <VendorName>Genpact
+    </VendorName>
+    <InvoiceAmount>459270.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:31Z
+    </Created>
+    <GBSCC>3399612800
+    </GBSCC>
+    <VendorNameGBSCC>Genpact3399612800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:31Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f92_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=92&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/92_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>93
+    </ItemInternalId>
+    <ID>93
+    </ID>
+    <BankID>8204752
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-03-04
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>21
+    </ManDays>
+    <VendorRateCard>28431
+    </VendorRateCard>
+    <VendorName>Genpact
+    </VendorName>
+    <InvoiceAmount>597051.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:32Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Genpact3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:32Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f93_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=93&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/93_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>94
+    </ItemInternalId>
+    <ID>94
+    </ID>
+    <BankID>8211031
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-07-26
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>17
+    </ManDays>
+    <VendorRateCard>28431
+    </VendorRateCard>
+    <VendorName>Genpact
+    </VendorName>
+    <InvoiceAmount>483327.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:32Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Genpact3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:32Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f94_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=94&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/94_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>95
+    </ItemInternalId>
+    <ID>95
+    </ID>
+    <BankID>8205500
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-03-21
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>25
+    </ManDays>
+    <VendorRateCard>185
+    </VendorRateCard>
+    <VendorName>Convergint
+    </VendorName>
+    <InvoiceAmount>4625.00000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:33Z
+    </Created>
+    <GBSCC>3399612800
+    </GBSCC>
+    <VendorNameGBSCC>Convergint3399612800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:33Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f95_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=95&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/95_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>96
+    </ItemInternalId>
+    <ID>96
+    </ID>
+    <BankID>8205776
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-04-01
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>21
+    </ManDays>
+    <VendorRateCard>185
+    </VendorRateCard>
+    <VendorName>Convergint
+    </VendorName>
+    <InvoiceAmount>3885.00000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:33Z
+    </Created>
+    <GBSCC>3399612800
+    </GBSCC>
+    <VendorNameGBSCC>Convergint3399612800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:33Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f96_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=96&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/96_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>97
+    </ItemInternalId>
+    <ID>97
+    </ID>
+    <BankID>8205762
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-04-04
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>22
+    </ManDays>
+    <VendorRateCard>185
+    </VendorRateCard>
+    <VendorName>Convergint
+    </VendorName>
+    <InvoiceAmount>4070.00000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:34Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Convergint3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:34Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f97_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=97&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/97_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>98
+    </ItemInternalId>
+    <ID>98
+    </ID>
+    <BankID>8206106
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-04-01
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>25
+    </ManDays>
+    <VendorRateCard>185
+    </VendorRateCard>
+    <VendorName>Convergint
+    </VendorName>
+    <InvoiceAmount>4625.00000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:35Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Convergint3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:35Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f98_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=98&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/98_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>99
+    </ItemInternalId>
+    <ID>99
+    </ID>
+    <BankID>8204929
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-03-07
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>0
+    </ManDays>
+    <VendorRateCard>22127
+    </VendorRateCard>
+    <VendorName>Capco
+    </VendorName>
+    <InvoiceAmount>0
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:36Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Capco3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:36Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f99_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=99&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/99_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>100
+    </ItemInternalId>
+    <ID>100
+    </ID>
+    <BankID>1507723
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-04-15
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>0
+    </ManDays>
+    <VendorRateCard>23881
+    </VendorRateCard>
+    <VendorName>Capco
+    </VendorName>
+    <InvoiceAmount>0
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:36Z
+    </Created>
+    <GBSCC>3399612800
+    </GBSCC>
+    <VendorNameGBSCC>Capco3399612800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:36Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f100_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=100&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/100_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>101
+    </ItemInternalId>
+    <ID>101
+    </ID>
+    <BankID>8203137
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-01-24
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>0
+    </ManDays>
+    <VendorRateCard>24633
+    </VendorRateCard>
+    <VendorName>Capgemini
+    </VendorName>
+    <InvoiceAmount>0
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:37Z
+    </Created>
+    <GBSCC>3399546800
+    </GBSCC>
+    <VendorNameGBSCC>Capgemini3399546800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:37Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f101_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=101&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/101_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>102
+    </ItemInternalId>
+    <ID>102
+    </ID>
+    <BankID>8204090
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-02-14
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>0
+    </ManDays>
+    <VendorRateCard>24633
+    </VendorRateCard>
+    <VendorName>Capgemini
+    </VendorName>
+    <InvoiceAmount>0
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:37Z
+    </Created>
+    <GBSCC>3399546800
+    </GBSCC>
+    <VendorNameGBSCC>Capgemini3399546800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:37Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f102_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=102&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/102_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>103
+    </ItemInternalId>
+    <ID>103
+    </ID>
+    <BankID>1669598
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-04-01
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>0
+    </ManDays>
+    <VendorRateCard>24633
+    </VendorRateCard>
+    <VendorName>Capgemini
+    </VendorName>
+    <InvoiceAmount>0
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:38Z
+    </Created>
+    <GBSCC>3393403800
+    </GBSCC>
+    <VendorNameGBSCC>Capgemini3393403800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:38Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f103_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=103&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/103_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>104
+    </ItemInternalId>
+    <ID>104
+    </ID>
+    <BankID>8203659
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-06-24
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>0
+    </ManDays>
+    <VendorRateCard>17596
+    </VendorRateCard>
+    <VendorName>Capco
+    </VendorName>
+    <InvoiceAmount>0
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:38Z
+    </Created>
+    <GBSCC>3399612800
+    </GBSCC>
+    <VendorNameGBSCC>Capco3399612800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:38Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f104_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=104&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/104_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>105
+    </ItemInternalId>
+    <ID>105
+    </ID>
+    <BankID>8209903
+    </BankID>
+    <GBSLocation>GBS Malaysia
+    </GBSLocation>
+    <DateofOnboarding>2024-07-01
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>22
+    </ManDays>
+    <VendorRateCard>2365
+    </VendorRateCard>
+    <VendorName>Capco
+    </VendorName>
+    <InvoiceAmount>52030.0000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:40Z
+    </Created>
+    <GBSCC>3075211800
+    </GBSCC>
+    <VendorNameGBSCC>Capco3075211800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:40Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f105_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=105&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/105_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>106
+    </ItemInternalId>
+    <ID>106
+    </ID>
+    <BankID>8212117
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-08-12
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>13
+    </ManDays>
+    <VendorRateCard>21870
+    </VendorRateCard>
+    <VendorName>Genpact
+    </VendorName>
+    <InvoiceAmount>284310.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:39Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Genpact3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:39Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f106_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=106&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/106_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>107
+    </ItemInternalId>
+    <ID>107
+    </ID>
+    <BankID>8212342
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-08-19
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>8
+    </ManDays>
+    <VendorRateCard>43575
+    </VendorRateCard>
+    <VendorName>Capco
+    </VendorName>
+    <InvoiceAmount>348600.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:41Z
+    </Created>
+    <GBSCC>3392804800
+    </GBSCC>
+    <VendorNameGBSCC>Capco3392804800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:41Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f107_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=107&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/107_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>108
+    </ItemInternalId>
+    <ID>108
+    </ID>
+    <BankID>8213226
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-08-26
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>5
+    </ManDays>
+    <VendorRateCard>20501
+    </VendorRateCard>
+    <VendorName>Capco
+    </VendorName>
+    <InvoiceAmount>102505.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:41Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Capco3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:41Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f108_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=108&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/108_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+  <values odata.etag="&quot;1&quot;">
+    <ItemInternalId>109
+    </ItemInternalId>
+    <ID>109
+    </ID>
+    <BankID>8213229
+    </BankID>
+    <GBSLocation>GBS India
+    </GBSLocation>
+    <DateofOnboarding>2024-08-26
+    </DateofOnboarding>
+    <Month odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference">
+      <Id>-1
+      </Id>
+      <Value>August
+      </Value>
+    </Month>
+    <Month_x0023_Id>-1
+    </Month_x0023_Id>
+    <Year>2024
+    </Year>
+    <ManDays>5
+    </ManDays>
+    <VendorRateCard>20501
+    </VendorRateCard>
+    <VendorName>Capco
+    </VendorName>
+    <InvoiceAmount>102505.000000000
+    </InvoiceAmount>
+    <Created>2024-09-09T06:50:41Z
+    </Created>
+    <GBSCC>3399611800
+    </GBSCC>
+    <VendorNameGBSCC>Capco3399611800
+    </VendorNameGBSCC>
+    <Modified>2024-09-09T06:50:41Z
+    </Modified>
+    <Author odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Author>
+    <Author_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Author_x0023_Claims>
+    <Editor odata.type="#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser">
+      <Claims>i:0#.f|membership|2014201@zone1.scb.net
+      </Claims>
+      <DisplayName>Gopinath1, Avinash
+      </DisplayName>
+      <Email>Avinash.Gopinath1@sc.com
+      </Email>
+      <Picture>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/UserPhoto.aspx?Size=L&amp;AccountName=Avinash.Gopinath1@sc.com
+      </Picture>
+      <Department>GBS Workforce Empowerment
+      </Department>
+      <JobTitle>Senior Manager, Workforce Empowerment
+      </JobTitle>
+    </Editor>
+    <Editor_x0023_Claims>i:0#.f|membership|2014201@zone1.scb.net
+    </Editor_x0023_Claims>
+    <_x007B_Identifier_x007D_>Lists%252fVendorBilling%252f109_.000
+    </_x007B_Identifier_x007D_>
+    <_x007B_IsFolder_x007D_>false
+    </_x007B_IsFolder_x007D_>
+    <_x007B_Thumbnail_x007D_>
+      <Large />
+      <Medium />
+      <Small />
+    </_x007B_Thumbnail_x007D_>
+    <_x007B_Link_x007D_>https://standardcharteredbank.sharepoint.com/sites/changedeliverycoe/_layouts/15/listform.aspx?PageType=4&amp;ListId=0077a423%2D423a%2D4dc9%2Db01e%2Da6f77a9bca33&amp;ID=109&amp;ContentTypeID=0x01006420666C8EEA4F4DA48A34410A3FF2CD00D3AB9F8F16E16A499D1336A5B3847D28
+    </_x007B_Link_x007D_>
+    <_x007B_Name_x007D_>
+    </_x007B_Name_x007D_>
+    <_x007B_FilenameWithExtension_x007D_>
+    </_x007B_FilenameWithExtension_x007D_>
+    <_x007B_Path_x007D_>Lists/VendorBilling/
+    </_x007B_Path_x007D_>
+    <_x007B_FullPath_x007D_>Lists/VendorBilling/109_.000
+    </_x007B_FullPath_x007D_>
+    <_x007B_HasAttachments_x007D_>false
+    </_x007B_HasAttachments_x007D_>
+    <_x007B_VersionNumber_x007D_>1.0
+    </_x007B_VersionNumber_x007D_>
+  </values>
+</root>
