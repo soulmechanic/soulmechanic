@@ -1,0 +1,209 @@
+function main(workbook: ExcelScript.Workbook,
+    TableName: string,
+    PrimaryKeyColumnName: string,
+    ForceMode1Processing: boolean,
+    UpdatedData: updateddata[]
+) {
+  if (UpdatedData.length != 0) {
+    const table = workbook.getTable(TableName);
+    let RowNum: number = 1;
+    const UpdatedDataLength = UpdatedData.length;
+    const UpdatedDataHeaderArray: string[] = Object.keys(UpdatedData[0]);
+    const UpdatedDataHeaderArrayLength = UpdatedDataHeaderArray.length;
+    const TableHeaderArray = table.getHeaderRowRange().getValues()[0].map(arr => arr.toString());
+    const TableRange = table.getRange();
+    const TableRangeNoHeader = table.getRangeBetweenHeaderAndTotal();
+    let TableData = TableRange.getValues();
+    const ArrayPK = table.getColumn(PrimaryKeyColumnName).getRange().getValues().map(arr => arr[0].toString());
+    const UpdatedDataPK: string[] = UpdatedData.map(arr => arr[PrimaryKeyColumnName].toString());
+    let ArrayPKErrors: (string | number)[] = ["", 0];
+    const ColumnCount = TableRange.getColumnCount();
+    let TableSize = (TableRange.getRowCount()) * (ColumnCount);
+    const TableSizeBatchProcLimit = 1000000;
+
+    //Set calculation mode to manual
+    workbook.getApplication().setCalculationMode(ExcelScript.CalculationMode.manual);
+
+    console.log(`Table size is ${TableSize} cells.`);
+    if (TableSize > TableSizeBatchProcLimit) { console.log(`You have exceeded the ${TableSizeBatchProcLimit} total table cell limit for processing larger batches on larger destination tables in the office script, please either reduce your destination table size or use a batch size of 1000 or less in the cloud flow.`) }
+    // If the table is less than 1 million cells & not something likely big enough to make errors in the V2 batch processing method then use the batch processing, else use the V1 row by row update method that isn't as affected by table size, but does have a lower cloud flow batch size limit.
+    // So if someone generally uses large batch sizes, but then their table grows past 1 million cells, then this will revert to the V1 row by row processing with the smaller batch file size limit and the cloud flow will start to error and they will need to switch their flow settings back to smaller batch sizes as well.
+    if (TableSize < TableSizeBatchProcLimit && ForceMode1Processing != true) {
+
+        let CurrentColumnName:string
+        //Iterate through each object item in the array from the flow
+        for (let i = 0; i < UpdatedDataLength; i++) {
+            //If the record's Primary Key value is found continue, else post to error log
+          if (ArrayPK.indexOf(UpdatedDataPK[i]) > 0) {
+                //Get the row number for the line to update by matching the foreign key from the other datasource to the primary key in Excel
+              RowNum = ArrayPK.indexOf(UpdatedDataPK[i])
+
+                //Iterate through each item or line of the current object
+                for (let j = 0; j < UpdatedDataHeaderArrayLength; j++) {
+                    //Update each value for each item or column given
+                    CurrentColumnName = UpdatedDataHeaderArray[j]
+                  if (TableHeaderArray.indexOf(CurrentColumnName) > -1) {
+                    TableData[RowNum][TableHeaderArray.indexOf(CurrentColumnName)] = UpdatedData[i][CurrentColumnName]
+                    }
+                }
+            }
+            //Post PK not found value to ArrayPKErrors
+            else { ArrayPKErrors.push(UpdatedData[i][PrimaryKeyColumnName]) };
+        }
+        //Get array of 1st row formulas to re-apply to columns after posting the updates to the table
+        let FirstRowFormulas: string[] = []
+        for (let c = 0; c < ColumnCount; c++) {
+            FirstRowFormulas.push(TableRangeNoHeader.getColumn(c).getRow(0).getFormula());
+        }
+
+        // If the entire table is smaller than 35,000 cells, then just post to the table. Else batch update.
+        if (TableSize < 35000) {
+            //Post table in memory to the Excel table
+            TableRange.setValues(TableData);
+        }
+        else {
+
+            // Run The Batch Update - (Batch update code source: https://docs.microsoft.com/en-us/office/dev/scripts/resources/samples/write-large-dataset)
+            const CELLS_IN_BATCH = 15000;
+
+            console.log(`Calling update range function...`);
+            const updated = updateRangeInBatches(TableRange.getCell(0, 0), TableData, 10000);
+            if (!updated) {
+                console.log(`Update did not take place or complete. Check and run again.`);
+            }
+
+            function updateRangeInBatches(
+                startCell: ExcelScript.Range,
+                values: (string | boolean | number)[][],
+                cellsInBatch: number
+            ): boolean {
+                const startTime = new Date().getTime();
+                console.log(`Cells per batch setting: ${cellsInBatch}`);
+
+                // Determine the total number of cells to write.
+                const totalCells = values.length * values[0].length;
+                console.log(`Total cells to update in the target range: ${totalCells}`);
+                if (totalCells <= cellsInBatch) {
+                    console.log(`No need to batch -- updating directly`);
+                    updateTargetRange(startCell, values);
+                    return true;
+                }
+
+                // Determine how many rows to write at once.
+                const rowsPerBatch = Math.floor(cellsInBatch / values[0].length);
+                console.log("Rows per batch: " + rowsPerBatch);
+                let rowCount = 0;
+                let totalRowsUpdated = 0;
+                let batchCount = 0;
+
+                // Write each batch of rows.
+                for (let i = 0; i < values.length; i++) {
+                    rowCount++;
+                    if (rowCount === rowsPerBatch) {
+                        batchCount++;
+                        console.log(`Calling update next batch function. Batch#: ${batchCount}`);
+                        updateNextBatch(startCell, values, rowsPerBatch, totalRowsUpdated);
+
+                        // Write a completion percentage to help the user understand the progress.
+                        rowCount = 0;
+                        totalRowsUpdated += rowsPerBatch;
+                        console.log(`${((totalRowsUpdated / values.length) * 100).toFixed(1)}% Done`);
+                    }
+                }
+                console.log(`Updating remaining rows -- last batch: ${rowCount}`)
+                if (rowCount > 0) {
+                    updateNextBatch(startCell, values, rowCount, totalRowsUpdated);
+                }
+                let endTime = new Date().getTime();
+                console.log(`Completed ${totalCells} cells update. It took: ${((endTime - startTime) / 1000).toFixed(6)} seconds to complete. ${((((endTime - startTime) / 1000)) / cellsInBatch).toFixed(8)} seconds per ${cellsInBatch} cells-batch.`);
+                return true;
+            }
+            /**
+             * A helper function that computes the target range and updates. 
+             */
+            function updateNextBatch(
+                startingCell: ExcelScript.Range,
+                data: (string | boolean | number)[][],
+                rowsPerBatch: number,
+                totalRowsUpdated: number
+            ) {
+                const newStartCell = startingCell.getOffsetRange(totalRowsUpdated, 0);
+                const targetRange = newStartCell.getResizedRange(rowsPerBatch - 1, data[0].length - 1);
+                console.log(`Updating batch at range ${targetRange.getAddress()}`);
+                const dataToUpdate = data.slice(totalRowsUpdated, totalRowsUpdated + rowsPerBatch);
+                try {
+                    targetRange.setValues(dataToUpdate);
+                } catch (e) {
+                    throw `Error while updating the batch range: ${JSON.stringify(e)}`;
+                }
+                return;
+            }
+            /**
+             * A helper function that computes the target range given the target range's starting cell
+             * and selected range and updates the values.
+             */
+            function updateTargetRange(
+                targetCell: ExcelScript.Range,
+                values: (string | boolean | number)[][]
+            ) {
+                const targetRange = targetCell.getResizedRange(values.length - 1, values[0].length - 1);
+                console.log(`Updating the range: ${targetRange.getAddress()}`);
+                try {
+                    targetRange.setValues(values);
+                } catch (e) {
+                    throw `Error while updating the whole range: ${JSON.stringify(e)}`;
+                }
+                return;
+            }
+        }
+        //Re-apply the formulas from the 1st row to the entire columns after the update
+        for (let f = 0; f < ColumnCount; f++) {
+            if (FirstRowFormulas[f].toString().startsWith("=")) {
+                TableRangeNoHeader.getColumn(f).getRow(0).setFormula(FirstRowFormulas[f])
+                TableRangeNoHeader.getColumn(f).getRow(0).autoFill(table.getRangeBetweenHeaderAndTotal().getColumn(f).getAddress(), ExcelScript.AutoFillType.fillDefault)
+            }
+        }
+    }
+    // Update row by row if the table is too large
+    else {
+        let CurrentRow = TableRange.getRow(RowNum).getValues();
+        let CurrentColumnName:string;
+        //Iterate through each object item in the array from the flow
+        for (let i = 0; i < UpdatedDataLength; i++) {
+            //If the record's Primary Key value is found continue, else post to error log
+          if (ArrayPK.indexOf(UpdatedDataPK[i]) > 0) {
+                //Get the row number for the line to update by matching the foreign key from the other datasource to the primary key in Excel
+              RowNum = ArrayPK.indexOf(UpdatedDataPK[i]);
+                //Create an in-memory copy of the table row to update
+                CurrentRow = TableRange.getRow(RowNum).getValues();
+
+                //Iterate through each item or key value pair in the update data
+                for (let j = 0; j < UpdatedDataHeaderArrayLength; j++) {
+                    //Update each value in the in-memory table row copy for each item in the update data
+                    CurrentColumnName = UpdatedDataHeaderArray[j]
+                  if (TableHeaderArray.indexOf(CurrentColumnName) > -1) {
+                    CurrentRow[0][TableHeaderArray.indexOf(CurrentColumnName)] = UpdatedData[i][CurrentColumnName]
+                    }
+                }
+                //Insert the updated in-memory row copy back to the table row
+                TableRange.getRow(RowNum).setValues(CurrentRow)
+            }
+            //Post PK not found value to ArrayPKErrors
+            else { ArrayPKErrors.push(UpdatedData[i][PrimaryKeyColumnName]) }
+        }
+    }
+
+    //Set calculation mode back to automatic
+    workbook.getApplication().setCalculationMode(ExcelScript.CalculationMode.automatic);
+
+    //Post ArrayPKErrors to flow results
+    console.log("Any primary key values not found are listed in the result array.")
+    //Get rid of the initial dummy values passed to the array
+    ArrayPKErrors.shift(); ArrayPKErrors.shift();
+    return ArrayPKErrors;
+  }
+}
+
+interface updateddata {
+  'DummyReferenceDoNotUse': (string | undefined)
+}
