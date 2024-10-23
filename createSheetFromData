@@ -1,0 +1,25 @@
+function main(workbook: ExcelScript.Workbook,
+    MainTable: string = "Table1",  //new table name
+    worksheetInformation: WorksheetData) {
+
+    // Get default worksheet Sheet1
+    let sheet = workbook.getWorksheet(`Sheet1`);
+
+    // Create range based on the size of data 
+    let range = sheet.getRangeByIndexes(0, 0, worksheetInformation.data.length, worksheetInformation.data[0].length);
+
+    //Populate sheet with data
+    range.setValues(worksheetInformation.data)
+
+    //Autofit column width
+    range.getFormat().autofitColumns();
+
+    //Create New Table
+    let newTable = workbook.addTable(range, true);
+    newTable.setName(MainTable);
+}
+
+// An interface to pass the worksheet name and cell values through a flow.
+interface WorksheetData {
+    data: string[][];
+}
