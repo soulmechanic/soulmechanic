@@ -1,0 +1,59 @@
+function main(workbook: ExcelScript.Workbook,
+    KeyColumn: string = "ManagerName",  //Specify Key Column Name to Filter On
+    MainTable: string = "Table1",  //Either existing OR new table name
+    SheetName: string = "Sheet1"  //Default sheet name
+) {
+
+    /*Commented out if new table not required
+    // Get the worksheet by name
+    const selectedSheet = workbook.getWorksheet(SheetName);
+    
+    // Alternatively, get the first worksheet (uncomment below and comment out above)
+    // const selectedSheet = workbook.getFirstWorksheet();
+  
+    // Create a table using the data range.
+    let newTable = workbook.addTable(selectedSheet.getUsedRange(), true); 
+    newTable.setName(MainTable); 
+    */
+
+    // Create an object to return the data for each workbook.
+    let worksheetInformation: WorksheetData[] = [];
+
+    //Define Table Name
+    const TableName = workbook.getTable(MainTable);
+
+    //Get all values for key column
+    const keyColumnValues: string[] = TableName.getColumnByName(KeyColumn).getRangeBetweenHeaderAndTotal().getValues().map(value => value[0] as string);
+
+    // Filter out repeated keys. This call to `filter` only returns the first instance of every unique element in the array.
+    const uniqueKeys = keyColumnValues.filter((value, index, array) => array.indexOf(value) === index);
+    console.log(uniqueKeys);
+
+    // Filter the table to show only rows corresponding to each key and then for each filter
+    uniqueKeys.forEach((key: string) => {
+        TableName.getColumnByName(KeyColumn).getFilter().applyValuesFilter([`${key}`]);
+
+        // Get the visible view when a single filter is active.
+        const rangeView = TableName.getRange().getVisibleView();
+        // Get values from filter
+        let values = rangeView.getValues()
+
+        worksheetInformation.push({
+            name: `${key}`,
+            data: values as string[][]
+        });
+
+    });
+
+    //Clear Filter
+    TableName.getColumnByName(KeyColumn).getFilter().clear();
+
+    return worksheetInformation
+
+}
+
+// An interface to pass the worksheet name and cell values through a flow.
+interface WorksheetData {
+    name: string;
+    data: string[][];
+}
